@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+    <div class="alo">
+        <div class="clock">
+            <div  id="timeclock">
+                    <span id="hours"></span>
+                    <span id="separator"></span>
+                    <span id="minutes"></span>
+                    <span id="separator"></span>
+                    <span id="seconds"></span>
+            </div>
+            <div class="choose">
+                <h1>Выберите интересующих вас животных:</h1>
+                <div id="form">
+                    <span class="bad">
+                        <label for="cat"> Кот </label>
+                        <input class="checkbox" id="cat" data-name="Кот" type="checkbox">
+                    </span>
+                    <span class="bad">
+                        <label for="dog"> Собака </label>
+                        <input class="checkbox" id="dog" data-name="Собака" type="checkbox">
+                    </span>
+                    <span class="bad">
+                        <label for="elephant"> Слон </label>
+                        <input class="checkbox" id="elephant" data-name="Слон" type="checkbox">
+                    </span>
+                    <span class="bad">
+                        <label for="bird"> Птица </label>
+                        <input class="checkbox" id="bird" data-name="Птица" type="checkbox">
+                    </span>
+                    <button id="upload">Загрузить</button>
+                    </div>
+                    <div id="buttons"></div>
+                    <div id="picture"></div>
+            </div>
+        </div>
+        <div class="vova">
+            <div class="v">
+                <button id="plus">+</button>
+                <h3 id="value">0</h3>
+                <button id="minus">-</button>
+            </div>
+            <div class="random">
+                <button id="generator">Сгенерировать</button>
+                <h3 id="number">0</h3>
+            </div>
+        </div>
+    </div>
+            <script src="script.js"></script>
+    </body>
+    
+</html>
